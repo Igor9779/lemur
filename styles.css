@@ -159,7 +159,8 @@ body {
 
 .sections-wrapper{
     display: flex;
-    margin-right: 34px;
+    padding-right: 34px;
+    justify-content: center;
 }
 
 .blog{
@@ -225,6 +226,14 @@ body {
 .text-posts-wrapper{
     margin-right: 13px;
 }
+
+.second-posts-container {
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 0 15px; 
+  width: 667px;
+}
+
 
 .second-posts-title{
     font-size: 20px;
